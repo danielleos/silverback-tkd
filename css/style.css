@@ -733,8 +733,8 @@ a {
 			box-shadow: 5px 5px 30px -5px rgba(0, 0, 0, 0.1); }
 
 .block-13 .owl-stage-outer, .block-14 .owl-stage-outer, .block-15 .owl-stage-outer {
-	padding-top: 30px;
-	padding-bottom: 30px; }
+	padding-top: 10px;
+	padding-bottom: 10px; }
 
 .block-13 .owl-nav, .block-14 .owl-nav, .block-15 .owl-nav {
 	position: absolute;
@@ -1615,12 +1615,48 @@ a.footer-link:hover {
 	}
 }
 
+/* ####################################### */
+/* ########## END OF COLLAPSIBLE ######### */
+/* ####################################### */
+
 .block-text {
 	margin-left: 20%;
 	margin-right: 20%;
 	text-align: justify;
 }
 
+.block-text-10 {
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 0px 50px;
+}
+
+.block-text-5 {
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 0px 50px;
+}
+
+.mini-carousel-item {
+	text-align: center;
+	margin: 0px 20px;
+	padding: 20px;
+	border: solid 1px black;
+}
+
 .no-bullet-list {
 	list-style: none;
+}
+
+.no-indent {
+	list-style: circle;
+	list-style-position: inside;
+	padding-left: 0;
+}
+
+.flex-items-center {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
 }
