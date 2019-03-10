@@ -1614,3 +1614,13 @@ a.footer-link:hover {
 		max-width: 100%;
 	}
 }
+
+.block-text {
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;
+}
+
+.no-bullet-list {
+	list-style: none;
+}
