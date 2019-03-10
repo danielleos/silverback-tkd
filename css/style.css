@@ -572,7 +572,8 @@ background: rgba(238, 198, 10, 0.9); }
 	max-width: 70px; }
 
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo a:hover {
-	text-decoration: none; }
+	text-decoration: none;
+}
 
 .site-mobile-menu .site-mobile-menu-body {
 	overflow-y: scroll;
@@ -2193,6 +2194,29 @@ a.footer-link:hover {
 	flex-direction: row;
 	justify-content: center;
 	align-content: center;
+}
+
+/* .site-logo-pic {
+	height: 50px;
+}
+
+@media (max-width: 1200px) {
+	.site-logo-pic {
+		display: block;
+	}
+	.site-logo {
+		display: none;
+	}
+} */
+
+@media (max-width: 1200px) {
+	.visible-xs {
+		display: block !important;
+	}
+	.hidden-xs {
+		display: none !important;
+		
+	}
 }
 
 /* ##################################### */
