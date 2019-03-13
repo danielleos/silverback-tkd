@@ -2228,6 +2228,10 @@ a.footer-link:hover {
 	object-fit: cover;
 }
 
+.gallery a, .gallery img { 
+	image-orientation: from-image;
+}
+
 /* ##################################### */
 /* ########## END OF GALLERY ########### */
 /* ##################################### */
