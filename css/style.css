@@ -2226,6 +2226,27 @@ a.footer-link:hover {
 	height: 200px;
 	width: 100%;
 	object-fit: cover;
+	padding: 10px 0px;
+}
+
+.gallery a, .gallery img { 
+	image-orientation: from-image;
+}
+
+.gallery div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+.hidden-gallery a {
+	display: none;
+}
+
+.gallery-link {
+	padding-top: 20px;
 }
 
 /* ##################################### */
