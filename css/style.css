@@ -2249,6 +2249,10 @@ a.footer-link:hover {
 	padding-top: 20px;
 }
 
+.view-top {
+	object-position: 0 0;
+}
+
 /* ##################################### */
 /* ########## END OF GALLERY ########### */
 /* ##################################### */
@@ -2297,6 +2301,13 @@ a.footer-link:hover {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.thumbnail-news {
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+	padding: 10px 0px;
 }
 
 /* ##################################### */
