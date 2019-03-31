@@ -2253,6 +2253,14 @@ a.footer-link:hover {
 	object-position: 0 0;
 }
 
+/* .ekko-lightbox-item .img-fluid {
+	height: 100% !important;
+} */
+
+.modal {
+	z-index: 9999 !important;
+}
+
 /* ##################################### */
 /* ########## END OF GALLERY ########### */
 /* ##################################### */
@@ -2286,7 +2294,17 @@ a.footer-link:hover {
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;
+}
+
+.news-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
   width: 50%;
+}
+
+table.modal-table {
+	width: 100%;
 }
 
 .close {
