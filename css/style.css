@@ -2075,11 +2075,19 @@ a.footer-link:hover {
 .panel-heading a {
 	padding: 18px;
 	width: 100%;
-	display: flex;
+	display: block;
 	align-items: center;
 	position: relative;
 	border: 1px solid #fff;
 	text-align: left;
+}
+
+#select-grade .panel-heading a {
+	color: #000;
+}
+
+#FirstDan a, #SecondDan a {
+	color: #fff !important;
 }
 
 .panel {
@@ -2150,43 +2158,6 @@ a.footer-link:hover {
 	}
 }
 
-/* ####################################### */
-/* ########## END OF COLLAPSIBLE ######### */
-/* ####################################### */
-
-/* ############################# */
-/* ######## COLLAPSIBLE ######## */
-/* ############################# */
-.collapse-panel .panel-default > .panel-heading {
-  padding: 0;
-  margin-top: 10px;
-  width: 100%;
-}
-@media only screen and (max-width: 768px) {
-	.collapse-panel {
-    max-width: 100%;
-  }
-  .panel-default {
-    max-width: 100%;
-  }
-}
-@media only screen and (max-width: 992px) {
-	.collapse-panel {
-    max-width: 100%;
-  }
-  .panel-default {
-    max-width: 100%;
-  }
-}
-
-.panel-heading a {
-  padding: 18px;
-  width: 100%;
-  display: block;
-  position: relative;
-  color: rgb(0, 0, 0);
-  text-align: left;
-}
 .white a {
   background-color: #EEF0F2;
 }
@@ -2219,33 +2190,12 @@ a.footer-link:hover {
 	}
 }
 
-.panel {
-  border: none;
-  width: 100%;
-}
-@media only screen and (max-width: 768px) {
-	.panel {
-    max-width: 100%;
-	}
-}
-@media only screen and (max-width: 992px) {
-	.panel {
-    max-width: 100%;
-	}
-}
-
-.panel-heading a:after {
-  content: "\2501";
-  position: absolute;
-  right: 20px;
-}
-
 .yellow-tag {
   float: right;
   margin-right: 40px;
   margin-top: -18px;
   width: 5%;
-  height: 55px;
+  height: 64px;
   background-color: #FFE840;
 }
 .green-tag {
@@ -2253,7 +2203,7 @@ a.footer-link:hover {
   margin-right: 40px;
   margin-top: -18px;
   width: 5%;
-  height: 55px;
+  height: 64px;
   background-color: #11A84D;
 }
 .blue-tag {
@@ -2261,7 +2211,7 @@ a.footer-link:hover {
   margin-right: 40px;
   margin-top: -18px;
   width: 5%;
-  height: 55px;
+  height: 64px;
   background-color: #0A30FF;
 }
 .red-tag {
@@ -2269,7 +2219,7 @@ a.footer-link:hover {
   margin-right: 40px;
   margin-top: -18px;
   width: 5%;
-  height: 55px;
+  height: 64px;
   background-color: #FF0200;
 }
 .black-tag {
@@ -2277,23 +2227,19 @@ a.footer-link:hover {
   margin-right: 40px;
   margin-top: -18px;
   width: 5%;
-  height: 55px;
+  height: 64px;
   background-color: #000;
 }
 .dans {
   float: right;
   margin-right: 40px;
-  margin-top: -16px;
+  margin-top: -12px;
   text-align: center;
   width: 6%;
-  height: 55px;
+  height: 64px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 42px;
   color: #FFE840;
-}
-
-.panel-heading a.collapsed:after {
-  content: "\254b";
 }
 
 .white a.collapsed {
@@ -2321,24 +2267,6 @@ a.footer-link:hover {
   color: #fff;
 }
 
-.panel-body {
-  padding: 1em;
-  background-color: #fff;
-  text-align: left;
-  width: 100%;
-  border: none;
-}
-@media only screen and (max-width: 768px) {
-	.panel-body {
-    max-width: 100%;
-	}
-}
-@media only screen and (max-width: 992px) {
-	.panel-body {
-    max-width: 100%;
-	}
-}
-
 .panel-body h5 {
   font-size: 18px;
   font-weight: 900;
@@ -2346,6 +2274,89 @@ a.footer-link:hover {
 /* ################################ */
 /* ###### END OF COLLAPSIBLE ###### */
 /* ################################ */
+
+/* ################################ */
+/* ######### VIDEO MODALS ######### */
+/* ################################ */
+.modal-open {
+  width: 100%;
+}
+.modal-close {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  color: #2C3E50;
+}
+.caption {
+  padding: 10px 20px;
+  text-align: left;
+}
+.caption h5 {
+  font-size: 18px;
+  font-weight: 900;
+  padding-bottom: 5px;
+}
+.theory-modal-body {
+  text-align: center;
+  background-color: #fff;
+}
+.modal-text-cursor {
+	color: #fd7e14 !important;
+  cursor: pointer;
+}
+.modal-text-cursor:hover {
+	color: #c35a02 !important;
+}
+.video-container {
+  width: 100%;
+  display: inline-block;
+}
+.patterns-video {
+  width: 100%;
+  height: 100%;
+}
+.english, .korean {
+  cursor: pointer;
+}
+
+/* ####################################### */
+/* ######### END OF VIDEO MODALS ######### */
+/* ####################################### */
+
+/* ######################################## */
+/* ######### COLOUR CODING THEORY ######### */
+/* ######################################## */
+.stance:hover, .stance:hover ~ .stance {
+  background-color: red;
+  color: white;
+}
+.section:hover, .section:hover ~ .section {
+  background-color: blue;
+  color: white;
+}
+.technique:hover, .technique:hover ~ .technique {
+  background-color: orange;
+  color: white;
+}
+.direction:hover, .direction:hover ~ .direction {
+  background-color: orangered;
+  color: white;
+}
+.tool:hover, .tool:hover ~ .tool {
+  background-color: greenyellow;
+  color: black;
+}
+.movement:hover, .movement:hover ~ .movement {
+  background-color: hotpink;
+  color: white;
+}
+.number:hover, .number:hover ~ .number {
+  background-color: green;
+  color: white;
+}
+/* ######################################## */
+/* ##### END OF COLOUR CODING THEORY ###### */
+/* ######################################## */
 
 .block-text {
 	margin-left: 20%;
