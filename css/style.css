@@ -2064,8 +2064,10 @@ background: rgba(238, 198, 10, 0.9); }
 	max-width: 16.66666%;
 }
 
-@media (max-width: 1200px) {
-
+@media (min-width: 992px) {
+	.menu-mobile .list-mobile, .menu-mobile h3, .menu-mobile p {
+		text-align: end;
+	}
 }
 
 @media (max-width: 992px) {
@@ -2094,10 +2096,6 @@ background: rgba(238, 198, 10, 0.9); }
 		display: inline;
 		padding-right: 20px;
 	}
-}
-
-@media (max-width: 768px) {
-	
 }
 
 .footer-text {
