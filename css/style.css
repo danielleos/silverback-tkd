@@ -2240,24 +2240,18 @@ a.footer-link:hover {
 }
 .blue a {
   background-color: #0A30FF;
-  color: #fff;
+  color: #fff !important;
 }
 .red a {
   background-color: #FF0200;
-  color: #fff;
+  color: #fff !important;
 }
 .black a {
   background-color: #000;
   color: #fff;
+  height: 66px !important;
 }
 
-.white-tag {
-  float: right;
-  margin: -18px 40px -18px 0px;
-  width: 5%;
-  height: 64px;
-  background-color: #EEF0F2;
-}
 .yellow-tag {
   float: right;
   margin: -18px 40px -18px 0px;
